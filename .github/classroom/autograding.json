@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Hello World",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_hello.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Cats or dogs",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_catsordogs.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
